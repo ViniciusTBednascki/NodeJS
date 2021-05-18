@@ -3,7 +3,7 @@ const puppeteer = require('puppeteer-core');
 (async () => {
     const browser = await puppeteer.launch({
         headless: false,
-        executablePath: 'C:\\Program Files (x86)\\Microsoft\\Edge\\Application\\msedge.exe'
+        executablePath: 'C:\\Users\\DEV1\\AppData\\Local\\Google\\Chrome SxS\\Application\\chrome.exe'
       });
     const page = await browser.newPage();
     await page.goto('https://app.hangdocs.com/login');
